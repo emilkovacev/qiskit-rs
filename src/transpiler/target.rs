@@ -12,7 +12,7 @@
 
 /// A mapping of instructions and properties representing the particular constraints of a backend.
 pub struct Target {
-    pub(crate) target: *mut qiskit_sys::QkTarget,
+    pub target: *mut qiskit_sys::QkTarget,
 }
 
 impl Target {
